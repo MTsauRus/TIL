@@ -103,3 +103,86 @@
 
 - div, h1, p: block elements. 속성을 주었을 때 한 줄을 차지한다.
 - span: inline elements. 딱 차지한 만큼만.
+
+## 리스트 태그
+
+[07_list.html](07_list.html)
+
+- \<ul>\<li>: unordered list
+
+- \<ol>\<li>: ordered list
+- \<dl>: description list  
+  \<dt>: define term  
+  \<dd>: describe description
+
+## 표
+
+[08_table.html](08_table.html)
+
+- \<table> 태그 이용
+
+- \<thead>: 제목 부분의 \<tr>
+- \<tbody>: 데이터 부분의 \<tr>
+- \<tfoot>: 표의 제일 마지막. 예시에서는 합계
+- \<tr>: 데이터. rowspan, colspan으로 셀 병합을 할 수 있음.
+- \<td>, \<th>: 데이터, 열 제목
+
+## form elements
+
+##### 사용자로부터 데이터를 입력받기 위한 HTML elements
+
+<strong>SPA (single page app)에서는 최근 잘 사용하지 않는 추세. FE framework에서는 form을 사용하지 않고 정보를 전달하는 방법을 사용한다!</strong>
+
+[09_form_element.html](09_form_element.html)
+
+- \<form> 내부에 같은 동작을 묶자.
+
+- \<label> 태그의 for에 id 입력을 잊지 말자!
+
+- \<input type="">에 들어갈 수 있는 타입들
+
+  - checkbox  
+    label과 함께 움직인다.  
+    다중 선택 가능
+  - radio  
+    동글뱅이 버튼
+    name으로 묶어주면 한 개만 선택 가능하게 된다.
+  - color
+    색을 선택할 수 있는 팔레트를 제공한다.
+  - date  
+    캘린더를 제공한다.
+  - datetime-local  
+    날짜와 시간 선택창을 제공한다.
+  - email
+    이메일 입력창을 제공한다.
+
+    - <p style="color:yellow">이메일을 form 태그로 감싼 후, button type을 submit으로 두면 email 양식에 맞는지 검사를 해준다! submit 버튼은 누르면 form의 action의 위치로 정보를 던져버린다.</p>
+
+      ![Alt text](emailCheck.png)
+
+  - file  
+    파일 첨부를 제공한다.
+  - hidden  
+     개발자가 사용하기 위함. 보여지지 않는 태그
+  - image  
+    해당 이미지를 버튼처럼 만들 수 있음.
+  - number  
+    숫자 토글
+
+  - password  
+    공개되지 않는 비밀번호
+  - tel  
+    전화번호를 받음
+  - text  
+    디폴트. 문자를 받음.
+  - time  
+    시간을 받음.
+  - url  
+    주소를 입력받음. - 이메일과 마찬가지로, form으로 감싸고 button submit으로 설정하면 url 검사를 할 수 있다.
+  - search  
+    입력창 옆에 작은 x 표시를 해줌. 누르면 입력이 지워짐.
+
+##### 왜 input type을 맞춰야 하는가??
+
+- 모바일 환경에서, input type이 number라면 숫자 키보드가 올라온다! tel, date 등등 모두 전용 ui를 제공한다!
+  ![Alt text](typeNumber.png)

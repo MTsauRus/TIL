@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 표: table -->
+    <!-- 행: tr -->
+    <!-- 셀: td(데이터), th(열 제목)(즉, 첫줄) -->
+    <!-- thead: 제목 부분의 tr -->
+    <!-- tbody: 데이터 부분의 tr-->
+    <table>
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>연락처</th>
+          <th>이메일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>김이름</td>
+          <td>01010101010</td>
+          <td>email@naver.com</td>
+        </tr>
+        <tr>
+          <td>이이름</td>
+          <td>01010101010</td>
+          <td>email@naver.com</td>
+        </tr>
+        <tr>
+          <td>박이름</td>
+          <td>01010101010</td>
+          <td>email@naver.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <br />
+
+    <table>
+      <thead>
+        <tr>
+          <th>학년</th>
+          <th>반</th>
+          <th>학생수</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">1학년</td>
+          <td>1반</td>
+          <td>20명</td>
+        </tr>
+        <tr>
+          <!-- <td>1학년</td> -->
+          <td>2반</td>
+          <td>23명</td>
+        </tr>
+        <tr>
+          <!-- <td>1학년</td> -->
+          <td>3반</td>
+          <td>13명</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="2">합계</td>
+        <td>56명</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
