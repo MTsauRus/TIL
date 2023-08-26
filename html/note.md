@@ -1,3 +1,25 @@
+## TOC
+
+- [HTML](#html) - [Hyper Text Markup Language](#hyper-text-markup-language)
+- [웹 개발 라이프사이클](#웹-개발-라이프사이클)
+- [작업 환경 (extensions)](#작업-환경-extensions)
+- [기본 구조 및 기본 요소](#기본-구조-및-기본-요소)
+- [글로벌 속성](#글로벌-속성)
+- [로컬 속성](#로컬-속성)
+- [스타일 속성](#스타일-속성)
+- [의미에 맞는 태그 사용하기](#의미에-맞는-태그-사용하기)
+  - [의미 없는 태그: div, span](#의미-없는-태그-div-span)
+- [리스트 태그](#리스트-태그)
+- [표](#표)
+- [form elements](#form-elements)
+- [input 요소의 주요 속성](#input-요소의-주요-속성)
+- [그 외 폼 요소](#그-외-폼-요소)
+- [form 태그](#form-태그)
+- [iframe](#iframe)
+- [video, audio](#video--audio)
+- [map](#map)
+- [semantic tag](#semantic-tag)
+
 ## HTML
 
 ##### Hyper Text Markup Language
@@ -186,3 +208,117 @@
 
 - 모바일 환경에서, input type이 number라면 숫자 키보드가 올라온다! tel, date 등등 모두 전용 ui를 제공한다!
   ![Alt text](typeNumber.png)
+
+## input 요소의 주요 속성
+
+[10_input_attribute.html](10_input_attribute.html)
+
+- input: value에는 사용자가 브라우저에 입력한 값이 들어온다.
+
+- readonly: 읽기만 가능. form 내부의 submit 버튼을 누르면 값이 전달됨.
+- disabled: 읽기만 가능. submit 해도 값이 전달되지 않음.
+- maxlength: 최대 글자 길이 제한
+- placeholder: 입력할 때 가이드를 제시.
+- required: 필수 입력 값.
+- autocomplete="on": 브라우저 캐시 on. 한번 입력했으면 그 값이 저장됨. 표준 name 값이 있다.
+- autofocus="on": 새로고침했을 때 자동으로 입력창 활성화. 아이디 입력창에 적합.
+  ![Alt text](autocomplete.png)  
+  ![Alt text](autocomplete2.png)  
+  ![Alt text](autocomplete3.png)  
+  ![Alt text](autocomplete4.png)
+
+## 그 외 폼 요소
+
+[11_form_other.html](11_forrm_other.html)
+
+- select 태그 내부에 option 태그를 넣어 옵션 박스를 만들 수 있다. option 개수가 많을 때 사용한다. 공간을 적게 차지하기 때문이다.
+- 선택지가 적은 경우 radio를 사용하자.
+- textarea: row: 보이는 줄이 10줄. 더 입력 가능.
+- fieldset:legend: 관련된 정보끼리 묶는 fieldset.
+- <p style=color:yellow>datalist: select와 동일하게 선택지를 option으로 제공하지만, 키보드로 입력받을 수 있다는 것이 차이점. 아래와 같이 쓴다.</p>
+
+```html
+<input list="country" />
+<datalist id="country">
+  <label for="">나라를 선택하세요.</label>
+  <option value="1">Korea</option>
+  <option value="2">USA</option>
+  <option value="3">Japan</option>
+  <option value="4">China</option>
+  <option value="5">Austrailia</option>
+</datalist>
+```
+
+`<input list="country" id="country2"/>`와 같이 리스트 재사용이 가능하다.
+
+## form 태그
+
+- method: 데이터를 전송하는 방법
+
+  - get: 전송하는 데이터가 url에 붙어서 감. 즉, 데이터가 노출됨. 보안에 취약. 네이버 쇼핑몰에서 특정 상품을 검색한 후, 그 링크를 공유하면 naver.com 뒤에 사용자가 입력한 데이터들이 따라 붙는 것을 확인할 수 있다.  
+    페이지 주소를 공유해야 할 때 사용  
+    전송할 수 있는 데이터의 크기에 제약이 있음.
+
+  - post: 전송하는 데이터가 사용자 눈에 보이지 않음. 보안적으로 조금 더 안정적. (단 개발자 도구에서 확인 가능. 암호화 방식 사용 필요. https 프로토콜이 그 예시)  
+    전송할 수 있는 데이터 크기의 제약을 받지 않음.
+
+- target: 데이터를 전송할 창을 정함.
+
+  - \_self: 자기 자신 창을 리다이렉트함.
+  - \_blank: 새 창을 띄움.
+  - \_parent: iframe의 부모에서 창을 띄움.
+  - \_top: iframe의 가장 위 조상까지 올라감.
+
+    <br>
+
+- novalidate: form 태그 안의 input 요소의 정확성을 체크하지 않음.(submit 버튼 눌렀을 때 자동 검사하는 그거)
+
+## iframe
+
+[13_iframe.html](13_iframe.html)
+
+##### iframe은 페이지 내에 다른 html을 삽입해서 사용하는 기술
+
+##### 태그를 이용해서 다른 html 페이지를 불러올 수 있다.
+
+메뉴 항목을 눌렀을 때, 위의 메뉴는 그대로 있고 아래의 컨텐츠만 바꾸고 싶을 때 적합한 태그. iframe 태그의 src는 자바스크립트 파일로 변경해주자.  
+최근엔 잘 사용하지 않는 추세.
+
+## video, audio
+
+[14_video.html](14_video.html)
+
+- video 태그의 controls 속성을 추가하면 재생 툴을 보여준다.
+
+- autoplay 속성을 추가하면 영상이 자동으로 재생된다.
+- muted: 음소거
+- loop: 처음부터 다시 실행
+- poster: 영상 썸네일 지정
+- track: 자막 파일(.vtt)을 src에 추가하자.  
+  srclang: 자막 언어  
+  label: 자막 이름
+- preload(auto, metadata, none): 영상을 미리 다운로드하는지 결정.
+  - auto: 미리 다운로드한다. 시청할 확률이 높은 영상
+  - metadata: 영상 관련된 메타 데이터만 미리 가져온다.
+  - none: 미리 다운로드하지 않는다. 사용자가 영상을 시청하지 않을 확률이 높을 때.
+- audio 태그도 비디오와 거의 동일. controls 속성을 추가하자.
+
+## map
+
+[15_map.html](15_map.html)
+
+##### map 태그의 좌표를 잡아주기 위한 사이트 https://www.image-map.net/
+
+href에 클릭했을 때 이동할 주소를 넣자.
+
+## semantic tag
+
+[16_semantic_div.html](16_semantic_div.html) [17_semantic.html](17_semantic.html)
+
+- 태그명 자체가 의미를 갖고 있는 태그.
+
+- table, address 등
+- 예전에는 div 태그로 레이아웃을 나눴음.
+- div는 semantic하지 않음. 즉, 아무 의미가 없는 태그.
+- semantic tag: header, nav, main, section, article, aside, footer
+- 내부적으로 div와 완전 같지만, 가독성이 올라간다.
