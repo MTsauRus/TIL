@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*
+       1. 하위 선택자 방식
+       section 내부의 모든 ul 태그에 적용시킨다.
+       */
+      section ul {
+        border: 1px solid black;
+      }
+      /*
+       2. 자식 선택자 방식
+       section 내부의 하위 ul 태그에 적용시킨다. (깊이가)
+
+      section ul {
+        border: 1px solid black;
+      }
+      */
+      /*
+       3. 자식 선택자 방식
+       h1 다음에 나오는 ul 하나만 적용시킨다.
+      h1 + ul {
+        background-color: blue;
+      }
+      */
+      /*
+       4. 일반 형제 선택자
+       h1 다음에 나오는 모든 ul에 대해 적용시킨다.
+      */
+      h1 ~ ul {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p>p tag</p>
+      <ul>
+        <li>
+          li tag
+          <ul>
+            <li>li tag</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <div>
+      <h1>h1</h1>
+      <ul>
+        <li>li1</li>
+      </ul>
+      <ul>
+        <li>li2</li>
+      </ul>
+    </div>
+  </body>
+</html>
