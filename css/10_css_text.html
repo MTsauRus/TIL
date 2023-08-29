@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .underline {
+        text-decoration: underline;
+      }
+      .plain {
+        text-decoration: none;
+      }
+      .center {
+        text-align: center;
+      }
+
+      .underover {
+        text-decoration: dashed red underline overline 4px;
+        /* 원래는 아래와 같이 따로 써야 하지만, 위의 한문장으로 쓸 수 있다. 
+        text-decoration-style: dashed;
+        text-decoration-line: underline overline;
+        text-decoration-color: red;*/
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="underline">underlined</h1>
+    <h1 class="center">center align</h1>
+    <a href="" class="plain">removed underline link</a>
+    <br />
+    <h1 class="underover">underover</h1>
+  </body>
+</html>

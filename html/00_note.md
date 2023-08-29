@@ -51,6 +51,12 @@
 - HTML CSS support
 - open in browser
 - Prettier - Code formatter
+- auto rename tag
+- html to css autocompletion
+- indent-rainbow
+- css initial value
+- image preview
+- vscode-styled-components
 
 ## 기본 구조 및 기본 요소
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: white;
+        background-color: blue;
+      }
+      button:hover {
+        color: white;
+        background-color: red;
+      }
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: greenyellow;
+      }
+      input:focus {
+        border: 5px solid red;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table {
+        width: 100%;
+      }
+
+      /* 2n, even: 짝수행  */
+      /* 2n+1, odd: 홀수행  */
+      tbody > tr:nth-child(odd) {
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://naver.com">방문한 적 있는 링크</a>
+    <a href="https://asdaㅁㄴㅇsd.com">방문한 적 없는 링크</a>
+    <br />
+    <button>빨개지는 버튼</button>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>연락처</th>
+          <th>이메일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>김이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+        <tr>
+          <td>최이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+        <tr>
+          <td>박이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

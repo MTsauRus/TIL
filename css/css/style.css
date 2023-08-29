@@ -1,0 +1,17 @@
+/* style.css */
+/* 클래스 선택자. class = "table*/
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+/* 자식 선택자. class = "table 하위의 모든 tr, th에 대해*/
+.table tr th,
+.table tr td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* 자식 선택자. class = "striped-table 하위의 tbody 하위의 tr의 홀수행마다*/
+.striped-table tbody tr:nth-child(odd) {
+  background-color: greenyellow;
+}

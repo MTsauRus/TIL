@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- internal css -->
+    <!-- <style> 
+      /* 클래스 선택자. class = "table*/
+      .table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      /* 자식 선택자. class = "table 하위의 모든 tr, th에 대해*/
+      .table tr th,
+      .table tr td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      /* 자식 선택자. class = "striped-table 하위의 tbody 하위의 tr의 홀수행마다*/
+      .striped-table tbody tr:nth-child(odd) {
+        background-color: greenyellow;
+      }
+    </style> -->
+  </head>
+  <body>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>연락처</th>
+          <th>이메일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>김이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+        <tr>
+          <td>최이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+        <tr>
+          <td>박이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <!-- 두개의 클래스를 공백으로 구분하자 -->
+    <table class="table striped-table">
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>연락처</th>
+          <th>이메일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>김이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+        <tr>
+          <td>최이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+        <tr>
+          <td>박이름</td>
+          <td>01010101010</td>
+          <td>asdasd@naver.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
