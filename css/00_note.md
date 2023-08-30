@@ -178,6 +178,7 @@
 ## css box model and size of elements
 
 [15_box_model.html](15_box_model.html)
+[16_box_sizing.html](16_box_sizing.html)
 
 ![Alt text](./image/box_model.png)
 
@@ -186,5 +187,60 @@
   값을 하나만 입력하면 4면 모두 같은 값으로.  
   padding: 10px 5px: top, bottom == 10px, right left == 5px
   padding: 10px 5px 1px: top == 10px, right left == 5px, bottom == 1px  
-  border, margin 모두 동일한 원리.  
-  12:32
+  border, margin 모두 동일한 원리.
+
+- box-sizing: content-box: 디폴트. 지정해준 width height 값이 content 영역의 크기를 의미함.
+- box-sizing: border-box: 지정해준 width height 값이 border 영역을 포함한 박스의 크기이다.  
+  <br>예를 들어, width 300px, height 100px, padding 10px, border 10px라 하자. cb의 경우 content 영역이 300px \* 100px이고, padding과 border 값이 각각 10px이다. 하지만, bb의 경우 border 영역까지의 크기가 300px \* 100px가 되어야 하므로 content 영역의 크기는 260px \* 60px가 된다.
+
+- width를 %로 주는 방법도 있다. 부모 요소가 있다면, 그 요소 크기의 백분율만큼 적용된다. 이 때 요소가 너무 커지거나 작아지는 것을 방지하기 위해 <mark>max-width, min-width</mark>를 속성으로 줄 수 있다.
+
+## background styling
+
+[17_background.html](17_background.html)
+
+- background-image: 지정한 이미지를 x축, y축 방향으로 반복하여 배경을 모두 채운다.
+
+- background-repeat: repeat-x(y), no-repeat
+- background-position: x축 y축 순서대로. ex) center top  
+  기준으로부터 얼마나 띄울 것인지 지정하는 것도 가능. ex) right 20px top 50px; : x축 오른쪽으로부터 20px, y축 위로부터 50px 띄움.
+- background-attachment  
+  fixed: 스크롤을 해도 항상 화면의 그 위치에 고정. 즉, 스크롤을 해도 화면에 배경이 계속 남아있다.  
+  scroll: 같이 스크롤된다. 스크롤을 내리면 배경이 올라가버린다.
+- <mark>background: color, image, repeat, position</mark> 순서대로 작성하자.  
+  background: yellow url("url") no-repeat right top;
+
+## border styling
+
+- border: border-width border-style border-color의 속성이 합쳐진 속성이다.
+
+- border-style: dashed, dotted, solid, double, groove(테두리가 파임), ridge(테두리가 튀어나옴), inset(요소가 파임), outset(요소가 튀어나옴)
+- border-width: thin, medium, thick
+- border-radius: 테두리를 동그랗게 할 수 있다.
+- border-top, right, bottom, left 순으로 지정할 수 있다.  
+  border: 5px: 4면 모두 5px  
+  border: 5px 10px: 위아래 5px 좌우 10px  
+  border: 5px 10px 15px: 위 5px 좌우 10px 아래 15px
+
+## position of HTML elements
+
+[18_position_relative.html](18_position_relative.html) [19_position_absolute.html](19_position_absolute.html) [20_position_sticky.html](20_position_sticky.html)
+
+- position: HTML elements의 위치를 정의함.  
+  static, relative, absolute, fixed, sticky
+
+  - position: static: default. 일반적인 문서의 흐름에 따라 요소의 위치가 정해진다.
+  - position: relative: 일반적인 문서의 흐름에 따라 요소의 위치가 정해지지만, top right bottom left 4가지 속성을 활용하여 offset을 적용시킨다.
+  - position: fixed: 특정 위치에 고정시킴. 마찬가지로 위치 속성을 이용하자.  
+    html symbols를 검색하면 특수한 기호들을 사용할 수 있다.
+  - position: absolute: 현재 요소의 부모 요소 중에서, position: relative가 설정된 가장 가까운 요소와의 상대적 위치.
+  - position: sticky: 스크롤이 되기 전에는 원래 요소가 있어야 할 위치에 있음. 스크롤이 되면 지정된 위치에 고정.
+
+  ## overflow
+
+  [21_overflow.html](21_overflow.html)
+
+- html 자식 요소가 부모 요소보다 클 경우 자식 요소를 어떻게 보여줄지를 결정해준다.
+- overflow-x, overflow-y, overflow(둘 다)
+- overflow:scroll: 자식 요소가 overflow됐다면, 부모 요소에 스크롤을 만들어준다.
+- overflow:auto: 자식 요소의 길이에 따라 스크롤바 생성 여부를 결정한다.

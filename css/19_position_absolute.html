@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .relative {
+        position: relative;
+        width: 400px;
+        height: 130px;
+        border: 3px solid green;
+      }
+      .absolute {
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        width: 240px;
+        border: 3px solid red;
+      }
+      .general {
+        width: 350px;
+        border: 3px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>absolute</h2>
+    <div class="relative">
+      position:relative인 부모 요소
+      <div class="general">
+        position:static인 요소
+        <!-- absolute 태그는 relative인 부모의 기준으로 formatting된다.  -->
+        <div class="absolute">position:absolute인 요소</div>
+      </div>
+    </div>
+  </body>
+</html>

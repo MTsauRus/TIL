@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .divv {
+        width: 300px;
+        height: 100px;
+        margin: 10px;
+        padding: 10px;
+        border: 10px solid green;
+      }
+      .box-cb {
+        box-sizing: content-box;
+      }
+      .box-bb {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="divv">CSS box model</div>
+    <div class="divv box-cb">CSS box model</div>
+    <div class="divv box-bb">CSS box model</div>
+
+    <div style="width: 100%; height: 200px; background-color: green">
+      <div
+        style="
+          width: 50%;
+          min-width: 200px;
+          max-width: 700px;
+          height: 50%;
+          background-color: red;
+        "
+      ></div>
+    </div>
+  </body>
+</html>
