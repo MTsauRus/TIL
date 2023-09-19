@@ -244,3 +244,12 @@
 - overflow-x, overflow-y, overflow(둘 다)
 - overflow:scroll: 자식 요소가 overflow됐다면, 부모 요소에 스크롤을 만들어준다.
 - overflow:auto: 자식 요소의 길이에 따라 스크롤바 생성 여부를 결정한다.
+
+## CSS for layout
+
+- display 프로퍼티를 통해 레이아웃을 잡을 수 있다.  
+  block, inline 요소로 서로 변경 가능.
+- table, flex, grid 방식이 존재한다.
+
+1. table: table 태그처럼 레이아웃을 구성할 수 있다.  
+   ![Alt text](table_layout.png)
