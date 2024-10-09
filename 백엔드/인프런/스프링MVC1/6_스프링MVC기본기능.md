@@ -327,4 +327,9 @@ public class RequestBodyJsonController {
   - HTTP 요청: `@RequestBody`, `HttpEntity(RequestEntity)`
   - HTTP 응답: `@ResponseBody`, `HttpEntity(ResponseBody)`
 
--
+## 여러 단축키들
+- 파일 추가: ctrl + alt + insert
+- test 만들기: ctrl + shift + T
+- 변수 추출하기: ctrl + alt + V
+- static import: alt + enter
+- 같은 단어 선택: alt + j
