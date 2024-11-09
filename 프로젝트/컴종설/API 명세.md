@@ -56,7 +56,7 @@ response
 POST /alarm/add
 
 - alarmId // 만들어서 줌
-- userId
+- userId -> username으로 바꿈. username 주세요. 
 - title
 - timer: 알람 시간
 - active: 알람 활성 여부
@@ -110,7 +110,7 @@ TODO테이블에 있는거
 
 - verificationId
 - userId
-- missionName
+- missionName // alarmId로 받고, 미션을 거기서 가져오자. 
 - isSuccess
 - verificationTime
 - value (nullable)
@@ -138,3 +138,13 @@ response
 - userMeans (유저 평균)
 
 ## 프로필
+
+## 보호자 기능
+- 보호자가 미션 생성하는 api
+- 보호자가 생성한 미션 검증 결과 따로 저장 (boolean으로 구분하는게 나은듯?)
+
+- 일요일todo
+  - 알람, 리포트, 보호자알람생성
+
+테스트목표
+로그인, 회원가입.
