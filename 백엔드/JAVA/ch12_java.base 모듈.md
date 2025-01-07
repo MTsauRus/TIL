@@ -140,3 +140,171 @@ public record Person(String name, int age) {}
   - countTokens(): 분리할 수 있는 문자열의 총 수
   - hasMoreTokens(): 남아있는 문자열이 있는지 여부
   - nextToken(): 문자열을 하나씩 가져옴. 가져올게 없으면 예외를 발생시키므로 hasMoreTokens를 먼저 호출하자.
+
+### 포장 클래스(Wrapper)
+
+- 기본 타입의 값을 갖는 객체를 생성할 수 있다.
+- 기본 타입의 값을 포장 객체로 만드는 과정을 박싱, 반대로 기본 타입의 값을 얻어내는 과정을 언박싱이라고 한다.
+- `Integer obj = 100; obj.getIntValue();`
+- <mark>대부분의 포장 클래스에는 parse+기본타입 정적 메서드가 있다.</mark>
+  - 이를 통해 문자열을 해당 기본 타입으로 변환할 수 있다.
+- 포장 객체 값 비교를 위해 ==를 사용할 수 없다.
+  - 비교 연산자는 객체 참조값을 비교하기 때문이다.
+  - 물론 예외도 있다. true/false, -128~127, \u0000 ~ \u007f 사이의 값은 비교 연산자를 사용하면 그 값으로 비교한다.
+  - 그냥 쓰지 말자. equals()를 쓰자.
+
+### 수학 클래스 (Math)
+
+- 모든 메서드가 정적이다.
+- Math.abs
+- ceil
+- floor
+- max, min
+- round
+- random: 0.0 ~ 1.0 사이의 double 타입 난수.
+  - start부터 시작하는 n개의 정수 중 하나의 정수를 얻는 방법
+  - `int num = (int) (Math.random() * n) + start;`
+- Math.random 대신 java.util.Random을 사용할 수도 있다. boolean, int, double 난수를 얻을 수 있다.
+- java.util.Random.nextBoolean, nextDouble, nextInt
+
+### 날짜와 시간 클래스
+
+- Date
+
+  - 날짜를 표현하는 클래스
+  - `Date now = new Date();`
+  - 원하는 포맷으로 얻으려면 `SimpleDateFormat` 클래스를 사용하자.
+  - `SimpleDateFormat sdf = new SimpleDateFormat("yyyy.mm.dd HH:mm:ss");`
+  - `sdf.format(now);`
+
+- Calendar
+  - 달력을 표현하는 추상 클래스
+  - 역법이 다 다르므로 추상 클래스로 해놓음.
+  - `Calendar.getInstance()` 하면 컴퓨터 설정 timezone 기준으로 Calendar 객체를 가져올 수 있다.
+
+```java
+public class CalendarExample {
+    public static void main(String[] args) {
+        Calendar c = Calendar.getInstance();
+        System.out.println(c.get(Calendar.YEAR));
+        System.out.println(c.get(Calendar.MONTH));
+        System.out.println(c.get(Calendar.DAY_OF_MONTH));
+        System.out.println(c.get(Calendar.HOUR_OF_DAY));
+        System.out.println(c.get(Calendar.MINUTE));
+        System.out.println(c.get(Calendar.SECOND));
+        System.out.println(c.get(Calendar.MILLISECOND));
+        System.out.println(c.get(Calendar.DAY_OF_WEEK));
+    }
+}
+```
+
+- LocalDateTime
+  - 현재 시간을 얻으려면 LocalDateTime.now()를 하자
+  - plusHours, minusWeeks와 같이 사용하자
+  - isAfter, isBefore, isEqual, until 등의 메서드를 제공한다.
+
+### 형식 클래스 (Formatting)
+
+- java.text
+- DecimalFormat: 숫자를 원하는 형식의 문자열로(ex: 123456 -> 123,456)
+- SimpleDateFormat: 날짜를 문자열로
+
+### 정규 표현식 클래스
+
+- java.util.regex의 Pattern 클래스는 정규 표현식으로 문자열을 검증하는 matches() 메서드를 제공
+- `Pattern.matches("정규식", "검증문자열");`
+
+### 리플렉션
+
+- 클래스와 인터페이스의 메타 정보를 Class 객체로 관리한다.
+- 메타 정보는 패키지 정보, 타입 정보, 멤버 정보 등을 의미
+- Class 객체를 얻는 방법은 세 가지가 있다.
+
+1. `Class clazz = 클래스이름.class;` : 클래스로부터 얻는 방법
+2. `Class clazz = Class.forName("패키지/.../클래스이름");` : 클래스로부터 얻는 방법
+3. `Class clazz = 객체참조변수.getClass();` : 객체로부터 얻는 방법
+
+- 리소스 경로 얻기
+  - URL getResources(String name): 리소스 파일의 URL 리턴
+  - InputStream getResourceAsStream(String name): 리소스 파일의 InputStream 리턴
+  - URL.getPath()는 절대 경로를 리턴
+
+### 어노테이션
+
+- 세 가지 용도로 사용한다.
+
+  - 컴파일 시 사용하는 정보 전달 (@Override)
+  - 빌드 툴이 코드를 자동으로 생성할 때 사용하는 정보 전달
+  - 실행 시 특정 기능을 처리할 때 사용하는 정보 전달
+
+- 어노테이션 정의는 인터페이스 정의와 유사하다.
+- `public @interface AnnotationName`
+- 어노테이션은 속성을 가질 수 있다. 타입과 이름으로 구성되며, 이름 뒤에 괄호를 붙여야 한다.
+- 속성의 기본 값을 default 키워드로 지정할 수 있다.
+
+```java
+public @interface AnnotationName {
+  String prop1();
+  int prop2() default 1;
+  String value(); // 기본 속성이다.
+}
+```
+
+```java
+package ch12;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import java.lang.reflect.Method;
+
+public class AnnotationExample {
+    public static void main(String[] args) throws Exception {
+        Method[] declaredMethods = Service.class.getDeclaredMethods();
+        for (Method declaredMethod : declaredMethods) {
+            PrintAnnotation annotation = declaredMethod.
+                    getAnnotation(PrintAnnotation.class);
+            printLine(annotation);
+
+            declaredMethod.invoke(new Service());
+
+            printLine(annotation);
+            }
+        }
+
+        static void printLine(PrintAnnotation annotation) {
+        if (annotation != null) {
+            int number = annotation.number();
+            for (int i = 0; i < number; i++) {
+                String value = annotation.value();
+                System.out.println(value);
+            }
+            System.out.println();
+        }
+    }
+}
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@interface PrintAnnotation {
+    String value() default "-";
+    int number() default 15;
+}
+
+class Service {
+    @PrintAnnotation
+    public void method1() {
+        System.out.println("method1");
+    }
+    @PrintAnnotation("*")
+    public void method2() {
+        System.out.println("method2");
+    }
+    @PrintAnnotation(value = "#", number = 15)
+    public void method3() {
+        System.out.println("method3");
+    }
+}
+
+```
