@@ -220,7 +220,7 @@ public class CalendarExample {
 - 메타 정보는 패키지 정보, 타입 정보, 멤버 정보 등을 의미
 - Class 객체를 얻는 방법은 세 가지가 있다.
 
-1. `Class clazz = 클래스이름.class;` : 클래스로부터 얻는 방법
+1. `Class clazz = 클래스이름.class;` : 클래스로부터 얻`는 방법
 2. `Class clazz = Class.forName("패키지/.../클래스이름");` : 클래스로부터 얻는 방법
 3. `Class clazz = 객체참조변수.getClass();` : 객체로부터 얻는 방법
 
