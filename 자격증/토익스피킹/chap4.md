@@ -61,3 +61,47 @@
 - Yes. First, at 9am, there is International Marketing Expo. Second, at 11 am, there is an e-Marketing conference.
 
 ### 3. 이력서
+
+- 학사: bachelor
+- 석사: master
+- in 전공 from 학교 in 연도
+- 학사를 따다: get a bachelor
+- from 시작일 to 종료일, he worked at 회사명 as 직책
+- from 시작일 up to now, he has worked at 회사명 as 직책
+
+  - First, from 2015 to 2017, she worked at Jasper Fashion Magazine as a director.
+  - Next, from 2017 up to now, she has worked at Toronto Fashion Magazine as a chief editor.
+
+- Q1) What is Ms Matten's latest degree?
+- A1) She got a master's degree in Design from Vancouver Art Institute in 2010.
+- Q2) 애들이랑 일해본 경험 있니?
+- A2) Yes. She worked at Collingwood Elementary School as an art teacher in 2012.
+- Q3) Yes, first, from 2015 to 2017, she worked at Jasper Fashion Magazine as a director. Second, from 2017 up to now, she has worked at Toronto Fashion Magazine as a chief editor.
+
+### 4. 면접 일정
+
+- There is an interview with 사람 from 회사 (who is applying for 직책)
+  - There is an interview with John White from Eco Electronics (who is applying for the marketing director position.)
+- He is applying for ~ position.
+
+- Q1) 언제 어디에 진행됨?
+- A1) It will be held on May 5th in Conference Room 3C.
+  - 날짜 앞에 on, 실내장소,도시,나라 앞에 in
+- Q2) 11시 반에 있던 면접 있는데 맞냐 이거
+- A2) No, actually, there was supposed to be an intrview with Sandra Vincent, but it has been canceled.
+- Q3) Sales manager 지원한 사람 다 말해줘.
+- A3) Yes. First, from 930 to 1000 am there is an interview with Julia from Best Systems. Second, from 10:30 to 11 am, there is an interview with Jason Morris from ST Corporation.
+
+### 5. 수업시간표 템플릿
+
+- If you V, it's ~ dollors.
+  - If you are a member, it's free.
+- There is a cooking class(course).
+- 강사 will teach 과목명 class(course).
+
+- Q1) 돈얼마임
+- A1) If you are a member, it's free. But if you are not a member, it's 30 dollars per class.
+- Q2) 제이크가 강사인걸로 아는데 맞음?
+- A2) No, Actually, David Williams will teach Professional Bowling class.
+- Q3) 데이비드 윌리엄 클래스 다 말해보셈
+- A3) Yes. There are two classes. First, from 9 to 1 0 am on Mondays, there is Professional Bowling class. Second, from 1 to 2 pm on Thursdays, there is Advanced Bowling skills class.
