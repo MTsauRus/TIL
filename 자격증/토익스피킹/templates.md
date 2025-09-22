@@ -1,3 +1,63 @@
+## part 2
+
+### 필수 표현
+
+- This is a picture taken at / in ~
+- This is a picture taken indoor / outdoor.
+- The first thing I can see from this picture is ~
+- In the foreground/background/middle of the picture, there is / I can see
+- on the right/left side of the picture, there is / I can see
+- (생략 가능) Overall, it seems like ~
+  - Overall, it looks like the woman is busy.
+- (두 명일 경우)
+  - one of them, the other
+- (세 명일 경우)
+  - one of them, rest of them, the others
+- (다수인 경우)
+  - some of them, most of them
+
+## part 3
+
+## part 4
+
+### 전치사
+
+- 날짜, 요일: on
+  - on Oct 24th
+  - on Friday
+- 특정 장소 (건물명, 주소): at
+  - at Kimpo Airport
+  - at 1330 Main street
+- 실내, 도시, 나라: in
+  - In Seoul
+  - In Room 105
+  - In Korea
+
+### 필수 표현
+
+- (일정표)
+  - It will be held + 시각/장소
+  - It will be start/finish at 시각 / on 날짜
+- (개인 일정표)
+  - you will depart from / arrive in
+  - you will take 교통편
+  - you will stay at 숙소
+  - you will have lunch
+  - you will give a speech(lecture, presentation)
+  - There was supposed to be do something, but it has been canceled.
+- (이력서)
+  - 학사: bachelor, 석사: master
+  - in 전공 from 학교 in 연도
+  - 학사를 따다: get a bachelor
+  - from 시작일 to 종료일, he worked at 회사명 as 직책
+  - from 시작일 up to now, he has worked at 회사명 as 직책
+- (면접 일정)
+  - There is an interview with 사람 from 회사 (who is applying for 직책)
+  - He is applying for ~ position.
+- (수업시간표)
+  - If you are N, it's ~ dollars.
+  - 강사 will teach 과목 class.
+
 ## Part 5
 
 - 그들은 새로운 것들을 배울 수 있다.
