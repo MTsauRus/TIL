@@ -1,0 +1,117 @@
+## Part 5
+
+- 그들은 새로운 것들을 배울 수 있다.
+  - They can learn new things.
+- 그들은 새 사름들을 만나고 그들의 관계를 넓힐 수 있다.
+  - They can meet new people and expand their network.
+- 그들은 많은 경험을 할 수 있고 그들의 견문을 넓힐 수 있다.
+  - They can have a lot of (new) experience and broaden their perspective.
+- 그들은 좋은 결정을 내릴 수 없는데 왜냐하면 아직 충분히 성숙하지 못했기 때문이다.
+  - They can't make good decisions because they are not mature enough.
+- 그들은 집중을 못하게 될 것이다.
+  - They will be distracted.
+- 그들은 그들의 학업/업무에 집중할 수 없다.
+  - They can't focus(concentrate) on their studies/work.
+- 그들은 학교에서 좋은 성적을 받을 수 없다.
+  - They can't get good grades at school.
+- 그들은 학업에서 뒤쳐질 것이다.
+  - They will fall behind in class.
+- 그들은 효율적으로 일할 수 없다.,
+  - They can't work efficiently.
+- 그들은 돈을 절약할 수 있다.
+  - They can save money.
+- 생활비가 너무 비싸다.
+  - The cost of living is too high.
+- 그들은 먹고 살기가 어렵다.
+  - They can't make a living.
+- 나는 (더) 높은 급여를 받을 수 있다.
+  - I can get a high(er) salary.
+- N의 가격이 너무 비싸다.
+  - The cost of N is too expensive.
+- 이것은 돈 낭비다.
+  - It's a waste of money.
+- 그것은 좋은 투자인데 왜냐하면 삶을 더 낫게 만들어주기 때문이다.
+  - That's a good investment because it makes lives better.
+- 그들은 더 잘 집중할 수 있다.
+  - They can focus better.
+- 그들은 다른 사람들에게 방해받지 않을 것이다.
+  - They will not be distracted by others.
+- 그들은 그들의 스케줄을 정할 수 있다.
+  - They can set their own schedule.
+- 그들은 더 자유로울 수 있다.
+  - They can have more freedom.
+- 그들은 더 편안함을 느낀다.
+  - They feel more confortable.
+- 이것은 재밌고 즐거움을 준다.
+  - It's fun and entertaining.
+- 그들은 정보를 얻고 다른 사람과 공유할 수 있다.
+  - They can get information and share it with other people.
+- 더 가족처럼 느껴진다.
+  - It feels more like a family.
+- 그들은 인터넷에서 많은 유용한/최신 정보를 얻을 수 있다.
+  - They can get a lot of useful/latest information on the Internet.
+- 그들은 언제 어디서나 그들의 스마트폰으로 V할 수 있다.
+  - They can V anytime anywhere on their smartphones.
+- 이것은 더 빠르고 편안하다.
+  - It's faster and convenient.
+- 인터넷에는 많은 부정확한 정보가 있어서 믿을만하지 않다.
+  - There is a lot of inaccurate information on the Internet, so it's not reliable.
+- 이것은 학생들에게는 매우 집중을 분산시키는 것이라, 학생들은 공부에 집중할 수 없다.
+  - It's very distracting for students, so students can't focus on their studies.
+- 이것은 너무 비싸다.
+  - It's too expensive.
+- 나는 즉각적인 답변을 얻을 수 있다.
+  - I can get responses right away (immediately).
+- 나는 말하는 사람의 감정을 더 정확하게 이해할 수 있다.
+  - I can understand the feeling of the speaker more accurately.
+- 그들은 좋은 (업무) 분위기를 만들 수 있다.
+  - They can make a friendly (work) atmosphere.
+- 그들은 다른 사람들과 더 잘 소통할 수 있다.
+  - They can communicate with others better.
+- 그들은 좋은 팀플레이어가 될 수 있고 다른사람들과 좋은 관계를 맺을 수 있다.
+  - They can be good team players and build good relationships with others.
+- 그들은 좋은 평판을 가질 수 있다.
+  - They can have a good reputation. **(reputation: 평판)**
+- 그들은 매우 영향력 있을 수 있다.
+  - They can be very influential.
+- 그들은 다른 사람들에게 동기를 부여할 수 있다.
+  - They can motivate others.
+- 모든 것이 급변하고 경쟁이 치열하다.
+  - Everything is always changing and there is a lot of competition.
+- 그들은 많은 도전과 어려움에 직면한다.
+  - They face a lot of challenges and difficulties.
+- 그는 그의 창의성 덕택에 다양한 상황을잘 처리할 수 있다.
+  - He is able to handle a variety of situation due to his creativity.
+- 그들은 많은 경험을 가지고 있다.
+  - They have a lot of experience/knowledge.
+- 직원들은 더 효율적이고 생산적으로 일할 수 있다.
+  - Employees can work more efficiently and productively.
+- 직원들은 그들의 직장에 더 만족할 수 있다.
+  - Employees can be more satisfied with their jobs.
+- 이것은 더 나은 업무 환경을 만든다.
+  - It can make a better work environment.
+- 그들은 프로페셔널하게 보이지 않을 수 있다.
+  - They might appear less professional.
+- 고객들은 만족할 것이고, 고객 충성도를 유지할 것이다.
+  - Customers will feel satisfied and remain loyal.
+- 이것은 더 많은 고객을 끌어들일 것이다.
+  - It will attract more customers.
+- 업체가 더 성공할 것이다.
+  - The business will be more successful.
+- 사람들은 N을 더 자주 이용해서 더 효과적일 것이다.
+  - People frequently use N so it will be very effective.
+- 이것은 그들의 스트레스를 풀어주고 그들은 쉴 수 있다.
+  - It relieves their stress and they can relax.
+- 이것은 그들의 건강에 좋다.
+  - It is good for their (physical / mental) health.
+- 이것은 그들의 건강에 좋지 않다.
+  - It is not good for their health.
+- 이것은 환경에 좋다.
+  - It is good for the environment.
+- 환경오염은 요즘 매우 심각한 문제다.
+  - Pollution is a serious issue these days.
+- 이것은 더 깨끗한 환경을 만들 수 있다.
+  - It can make a cleaner environment.
+- 우리는 환경을 보호할 수 있을 것이다.
+  - We will be able to protect the environment.
+-
