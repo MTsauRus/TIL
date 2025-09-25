@@ -2,6 +2,7 @@
 
 ### 필수 표현
 
+- This is a picture of ~
 - This is a picture taken at / in ~
 - This is a picture taken indoor / outdoor.
 - The first thing I can see from this picture is ~
@@ -15,11 +16,240 @@
   - one of them, rest of them, the others
 - (다수인 경우)
   - some of them, most of them
-
+- 왼쪽에 인도가 있다.
+  - On the left side of the picture, there is a sidewalk.
+- 그 여자 옆에 다른 여자가 있다.
+  - next to/beside her, there is another woman. 
+- 그들 중 대부분은 정장을 입고 있다.
+  - Most of them are wearing formal clothes. (<-> casual clothes.)
+  - Some of them
+-  그녀는 가방 안쪽을 본다.
+  - She is looking into a bag.
+- 그는 무언가를 쓰고 있다.
+  - He is writing something down.
+- 그는 물건을 집으려고 손을 뻗고 있다. 
+  - He is reaching for an item. 
+- 그는 바닥에 누워있다.
+  - He is lying on the ground.
+- 유모차를 밀고 있다.
+  - pushing a baby stroller.
+- 그녀는 고객에게 음식 서빙중
+  - She is serving food to customers.
+- 비닐봉지를 들다
+  - holding a plastic bag.
+- 종이 한장을 줍다
+  - picking up a piece of paper.
+- 신용카드를 건내주다
+  - handing over a credit card.
+- 옷걸이에 옷을 걸다
+  - hanging his clothes on a rack.
+- 핸드백
+  - purse
+- 전자레인지에 음식 넣기
+  - putting some food into a microwave.
+- 전화하다
+  - talking on the phone.
+- 핸드백을 어깨에 매다
+  - She has her purse on her shoulder.
+- 그는 주문을 받고 있다.
+  - He is taking an order.
+- 컴퓨터로 일하다
+  - working on a computer.
+- 게시판에 붙이다.
+  - putting something on the bulletin board.
+- 트럭에 박스를 싣다.
+  - loading a box into a truck.
+- 패딩
+  - padded jumper
+- 한 손을 들다
+  - raising his hand
+- 청소기로 청소하다
+  - cleaning with a vacuum.
+- 제품을 보다
+  - looking at a product
+- 해변의자에서 쉬다
+  - relaxing on a beach chair.
+- 계단에서 내려오다
+  - walking down the stairs.
+- 계산대에 서있다
+  - standing at the cashier.
+- 공연하다
+  - performing in public
+- 공연 관람하다
+  - watching the performance
+- 줄 서서 기다리다
+  - waiting in line
+- 길을 걷다
+  - walking on the street
+- 대화하다
+  - having a conversation
+  - talking with/to each other
+- 물건을 정리하다
+  - arranging items
+- 발표를 듣다
+  - listening to the presenter.
+- 악기를 연주하다
+  - playing musical instruments.
+- 지하철을 타고 있다(타는 동작)
+  - getting on the subway
+- 화상회의를 하다
+  - they are having a video conference. (online meeting)
+- 화면을 가리키다
+  - pointing at the screen
+- 물건을 받다
+  - receiving an item
+- 파라솔 밑에 앉아 있다
+  - sitting under the parasol.
+- 소풍하다
+  - having a picnic.
+- 노를 젓다
+  - He is paddling a boat.
+- 벽에 기대다
+  - leaning against the wall
+- 원피스
+  - dress
+- 체크무늬 셔츠
+  - checkered shirt
+- 반바지
+  - shorts
+- 제스처를 취하다
+  - He is gesturing. 
+- 작업복
+  - working clothes  
+- 조끼
+  - vest
+- 물건들이 진열대 위에 진열되어 있다
+  - products are displayed on the shelves.
+- 간판
+  - signboard
+- 교통표지판, 신호등
+  - I can see a traffic sign and a traffic light.
+- 쌓여 있는 박스들을 볼 수 있다
+  - I can see many boxes stacked.
+- 벽에 걸린 그림을 볼수있다
+  - I can see some pictures on the wall.
+- 옷걸이에 걸린 옷을 볼 수 있다
+  - I can see some clothes hanging on a rack.
+- 진열된 옷을 볼수있다
+  - I can see a lot of clothes on display.
+  - I can see groceries on display. (식료품)
+  - I can see a lot of books on the bookshelves.
+- 노점상
+  - street vendor
+- 가로등
+  - streetlights
+- 물품들이 선반 위에 정리되어 있다
+  - Items are arranged on the shelves.
+- 전반적으로 그들은 바빠보인다.
+  - overall, it seems like they are busy.
+- 전반적으로 도시의 바쁜 날 같다.
+  - Overall, it seems like a busy day in a city.
+  - beautiful sunny day.
+  - 
 ## part 3
 
+- 이것은 나의 스트레스를 풀어준다. 나는 요즘 스트레스를 많이 받았다. 그래서 나는 이것이 필요하다.
+  - It relieves my stress. I'm stressed out these days, so I need this.
+- 이것은 더 싸서 돈을 절약할 수 있다
+  - It's cheaper, so I can save money.
+- 가격이 합리적이다. 
+  - The price is reasonable.
+- 이것은 빨라서 시간을 절약할 수 있다. 
+  - It's faster so I can save time.
+- 나는 친구들에게 많은 유용한 정보를 얻을 수 있다.
+  - I can get a lot of useful information from my friends. 
+- 이것은 더 믿을 만 해서 정보가 신뢰가 간다.
+  - It's more reliable, so the information is more trustworthy.
+  - It's more reliable, so I can believe it. 
+- 나는 언제 어디서나 내 스마트폰으로 정보를 얻을 수 있다.
+  - I can get information anytime anywhere on my smartphone.
+- 이것은 더 개인적이고, 더 밀접한 인간관계를 쌓을 수 있다.
+  - It is more personal, and builds a closer relationship.
+- 이것은 오해를 덜 불러일으킨다.
+  - It causes less misunderstanding.
+- 이것은 내가 가장 좋아하는 일이다. 
+  - It's my favorite thing to do.
+- 이것은 나를 행복하게 해주고, 그래서 나는 걱정근심을 잊을 수 있다.
+  - It makes me happy, so I can forget about my worries.
+- 이것은 좋은 시설을 가지고 있다.
+  - It has great facilities.
+- 이곳은 인기 있는 곳이라 사람들이 좋아한다.
+  - It's a well-liked place, so people love it.
+- 나는 학생이라 예산이 부족하다.
+  - I'm a student, so my budget is tight.
+- 난 비싼 것을 살 여유가 없다.
+  - I can't afford to buy expensive things. 
+- 난 그것에 비싼 돈을 쓰고 싶지 않다.
+  - I don't want to waste too much money on that.
+- 그것은 돈 낭비다.
+  - It's a waste of money.
+- 나는 학생이다. 그래서 난 학업에 바쁘다.
+  - I'm a student, so I'm busy with my school work.
+- 나는 시간이 많이 없다. 
+  - I don't have much time.
+- 난 거기에 시간을 많이 쓰기 싫다.
+  - I don't want to waste too much time on that.
+- 이것은 더 재밌고 즐겁다. 그래서 난 지루하지 않다. 
+  - It's more fun and entertaining. so I don't get bored.
+- 나는 같이 하는 것이 더 재밌다고 생각한다. 
+  - I think it's more fun to do things in a group. 
+- 나는 새로운 사람을 만날 수 있고 친구를 사귈 수 있다. 
+  - I can meet new people and make friends. 
+- 나는 더 편안함을 느끼고 더 잘 집중할 수 있다.
+  - I feel more comfortable and I can focus better.
+- 나는 다른 사람을 기다리느라 시간을 낭비할 필요가 없다. 
+  - I don't have to waste time waiting for other people.
+- 나는 집에 있을 때 더 편안하다.
+  - I feel more comfortable at home.
+- 나는 시간을 절약할 수 있다. 밖에 나가느라 시간을 낭비할 필요가 없기 때문이다. 
+  - I can save time because I don't have to waste time going out. 
+- 그것들은 너무 오래되어서 나는 새로운 것이 있으면 좋겠다. 
+  - They are too old(outdated), so I think it's good to have new ones. 
+- 여기에 더 많은 가게가 있다면 더 편리할 것이다. 
+  - If we have more stores here, it would be more convenient. 
+- 이건 나에게 매우 필요한 것이다.
+  - It's very necessary for me.
+- 나는 그것을 자주 이용한다. 
+  - I frequently use it.
+- 이것은 나를 행복하게 해주고, 나는 좋은 경험을 할 수 있다. 
+  - It makes me happy and I can have a great experience.
+- 그들은 행복한 분위기와 기분 좋은 경험을 제공한다. 
+  - They provide a happy environment and a pleasant experience.
+- 이것은 더 믿을 만해서 난 그 제품을 신뢰할 수 있다.
+  - It's more reliable, so I can trust the product.
+- 이것은 인기 있는 아이템이라 사람들이 좋아할 것이다. 
+  - It's a popular item, so people will love it. 
+- 이것은 의미가 깊다. 
+  - It has sentimental value. 
+- 나는 새로운 것을 시도하는 것을 좋아한다. 
+  - I like to try new things. 
+- 그것은 내 일상의 일부다. 
+  - It's part of my routine. 
+  - It's my habit.
+- 나는 그게 정말 좋았었다. 
+  - I really liked it.
+  - It was great! (awesome  )
 ## part 4
-
+- 그는 스페인어에 유창하다.
+- He is fluent in Spanish.
+- 그는 자격증이 있다
+- She has certificate.
+- 그는 교육 분야 경험이 있다.
+- He has experience in education.
+- 넌 ~를 인터뷰할거야.
+- You will interview 사람.
+- ~ 직에 지원한 사람 인터뷰가 있어.
+- There is an interview with 사람 who is applying for ~
+  - (동사로 쓰일 땐 전치사 없이)
+- 그는 5년 경력이야.
+- He has 5 years of experience.
+- 넌 오일 페인팅 클래스를 위해 20달러를 내야 해.
+- You have to pay 20 dollars for the oil painting class.
+- 너는 1월 3일까지 등록해야 해.
+- You should register by/until Jan 3rd.
+- 그녀는 프랑스사를 가르칠거야.
+- She will teach a class on French Art History.
+- 
 ### 전치사
 
 - 날짜, 요일: on
@@ -32,6 +262,10 @@
   - In Seoul
   - In Room 105
   - In Korea
+- on
+  - 탈것
+  - 강좌, 수업, 토론의 주제 (~에 대해)
+  - 
 
 ### 필수 표현
 
@@ -58,8 +292,55 @@
   - If you are N, it's ~ dollars.
   - 강사 will teach 과목 class.
 
-## Part 5
+- 컨퍼런스가 6 20 힐튼호텔에서 개최될 예정입니다. 
+  - The conference will be held on June 20th at Hilton hotel.
+- 미팅은 오전 9시에 시작될 것이다.
+  - The meeting will start/finish at 9 am.
+- 아니, 유감스럽게도 잘못 알고 있음. 등록 및 커피 타임은 오전 9시에 시작될 것이다. 
+  - No, I'm afraid that you have the wrong information. Actually, registration and coffee session will start at 9 am.
+- 두개의 세션이 있음. 오후1시 SNS마케딩 레이킹스턴. 2시반 마케팅을통해 스포츠팬들에게 어필하는 것에 대한 케빈 델몬트.
+  - There are two sessions. First at 1 PM. There is a workshop on social media marketing by Ray Kingston. Second at 2:30 PM. There is a discussion on appealing to sports fans through marketing by Kevin Delmont.
+- 넌 10시에 아메리칸에어 105를 타고 샌프에서 출발할것임
+  - You will depart from San Francisco at 10 am on American air 105.
+- 넌 LA에 오후 3시에 도착함
+  - You will arrive in LA at 3 pm.
+- 넌 대한항공 105 탈거임
+- you will take Korean Air 105.
+- 넌 글랜호텔에 머무를거임
+  - You will stay at Glan Hotel. 
+- 넌 점심먹을거임
+  - You will have lunch.
+- 넌 회의할거임
+  - You will have a meeting. 
+- 회의 있었는데 취소됨
+  - There was supposed to be a meeting, but it has been canceled. 
+- 원래 화요일 2시 제인이랑 회의있었는데 금욜로 변경됨
+  - There was supposed to be a meeting with Jane at 2 pm on Tuesday, but it has been rescheduled to Friday. 
+- 그녀는 벤쿠버 예대에서 2010년 디자인전공 석사 있음. 
+  - She got a master's degree in design from art university in 2010.
+- 첫째로 2015~2017 패션잡지사에서 이사로 일함
+  - First, from 2015 to 2017, she worked at fashion magazine as a director.
+- 그담 2017부터 지금까지 토론토 패션 잡지사에서 편집장으로 일하고 있음
+  - Next, from 2017 up to now, she has worked at Toronto fashion magazine as a chief editor.
+- 그는 스페인어에 유창하다
+  - He is fluent in spanish.
+- 그는 자격증이 있다
+  - He has certificate.
+- 그는 교육 관련 경험이 있다.
+  - He has experience in education.
+- 넌 제시카와 오전 9시에 면접볼거임
+  - You will interview Jenny at 9 am.
+- 마케팅 부장에 지원하는 에코전자 존 화이트와의 면접이 있다. 
+  - There is an interview with John white from Eco electronics who is applying for marketing director position. 
+- 그녀는 5년 업무 경력이 있다. 
+  - She has 5 years of experience. 
+- 그는 편집장직에 지원하고 있다. 
+  - He is applying for the editor position.
+  - 
 
+
+## Part 5
+ 
 - 그들은 새로운 것들을 배울 수 있다.
   - They can learn new things.
 - 그들은 새 사름들을 만나고 그들의 관계를 넓힐 수 있다.
@@ -101,7 +382,7 @@
 - 그들은 더 자유로울 수 있다.
   - They can have more freedom.
 - 그들은 더 편안함을 느낀다.
-  - They feel more confortable.
+  - They feel more comfortable.
 - 이것은 재밌고 즐거움을 준다.
   - It's fun and entertaining.
 - 그들은 정보를 얻고 다른 사람과 공유할 수 있다.
