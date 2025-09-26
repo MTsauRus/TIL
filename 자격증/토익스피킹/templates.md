@@ -26,7 +26,7 @@
 -  그녀는 가방 안쪽을 본다.
   - She is looking into a bag.
 - 그는 무언가를 쓰고 있다.
-  - He is writing something down.
+  - He is writing down something.
 - 그는 물건을 집으려고 손을 뻗고 있다. 
   - He is reaching for an item. 
 - 그는 바닥에 누워있다.
@@ -244,7 +244,7 @@
 - 그는 5년 경력이야.
 - He has 5 years of experience.
 - 넌 오일 페인팅 클래스를 위해 20달러를 내야 해.
-- You have to pay 20 dollars for the oil painting class.
+- You have to pay 20 dollars for the oil painting class. (should pay 금지, must 가능)
 - 너는 1월 3일까지 등록해야 해.
 - You should register by/until Jan 3rd.
 - 그녀는 프랑스사를 가르칠거야.
@@ -271,14 +271,14 @@
 
 - (일정표)
   - It will be held + 시각/장소
-  - It will be start/finish at 시각 / on 날짜
+  - It will start/finish at 시각 / on 날짜
 - (개인 일정표)
   - you will depart from / arrive in
   - you will take 교통편
   - you will stay at 숙소
   - you will have lunch
   - you will give a speech(lecture, presentation)
-  - There was supposed to be do something, but it has been canceled.
+  - There was supposed to be doing something, but it has been canceled.
 - (이력서)
   - 학사: bachelor, 석사: master
   - in 전공 from 학교 in 연도
@@ -314,6 +314,7 @@
   - You will have a meeting. 
 - 회의 있었는데 취소됨
   - There was supposed to be a meeting, but it has been canceled. 
+  - there was supposed to 뒤에는 반드시 동사 원형. 걍 be 쓰고 일정 말하자. 
 - 원래 화요일 2시 제인이랑 회의있었는데 금욜로 변경됨
   - There was supposed to be a meeting with Jane at 2 pm on Tuesday, but it has been rescheduled to Friday. 
 - 그녀는 벤쿠버 예대에서 2010년 디자인전공 석사 있음. 
@@ -365,6 +366,7 @@
   - The cost of living is too high.
 - 그들은 먹고 살기가 어렵다.
   - They can't make a living.
+  - They struggled to make a living.
 - 나는 (더) 높은 급여를 받을 수 있다.
   - I can get a high(er) salary.
 - N의 가격이 너무 비싸다.
